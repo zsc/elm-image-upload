@@ -78,6 +78,7 @@ view model =
             [ input
                 [ type_ "file"
                 , id model.id
+                , multiple True
                 , on "change"
                     (JD.succeed ImageSelected)
                 ]
