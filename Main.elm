@@ -1,7 +1,7 @@
 module Main exposing (..)
 
 import Html exposing (..)
-import Html.Attributes exposing (src, title, class, id, type_)
+import Html.Attributes exposing (src, title, class, id, type_, multiple)
 import Html.Events exposing (on)
 import Json.Decode as JD
 import Ports exposing (ImagePortData, fileSelected, fileContentRead)

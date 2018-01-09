@@ -8369,11 +8369,15 @@ var _user$project$Main$view = function (model) {
 						_0: _elm_lang$html$Html_Attributes$id(model.id),
 						_1: {
 							ctor: '::',
-							_0: A2(
-								_elm_lang$html$Html_Events$on,
-								'change',
-								_elm_lang$core$Json_Decode$succeed(_user$project$Main$ImageSelected)),
-							_1: {ctor: '[]'}
+							_0: _elm_lang$html$Html_Attributes$multiple(true),
+							_1: {
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html_Events$on,
+									'change',
+									_elm_lang$core$Json_Decode$succeed(_user$project$Main$ImageSelected)),
+								_1: {ctor: '[]'}
+							}
 						}
 					}
 				},
